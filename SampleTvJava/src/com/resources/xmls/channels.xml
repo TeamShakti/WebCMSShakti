@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Live>
+<Channel channelid = "C01">
+<title>Star plus</title>
+<desc>this is start plus tv</desc>
+<genre>Entertainment</genre>
+<country>INDIA</country>
+<region>ALL</region>
+<language>Hindi</language>
+<imageURL>www.google.com</imageURL>
+<channelURL>www.s3.com</channelURL>
+<packagelist>
+<packageID>P01</packageID>
+</packagelist>
+</Channel>
+<Channel channelid = "C02">
+<title>Zee tv</title>
+<desc>this is start Zee tv</desc>
+<genre>Entertainment</genre>
+<country>INDIA</country>
+<region>South</region>
+<language>Hindi</language>
+<imageURL>www.google.com</imageURL>
+<channelURL>www.s3.com</channelURL>
+<packagelist>
+<packageID>P03</packageID>
+</packagelist>
+</Channel>
+<Channel channelid = "C03">
+<title>comedy central</title>
+<desc>this is start comedy central</desc>
+<genre>Comedy</genre>
+<country>INDIA</country>
+<region>North</region>
+<language>Hindi</language>
+<imageURL>www.google.com</imageURL>
+<channelURL>www.s3.com</channelURL>
+<packagelist>
+<packageID>P01</packageID>
+<packageID>P02</packageID>
+<packageID>P03</packageID>
+</packagelist>
+</Channel>
+</Live>

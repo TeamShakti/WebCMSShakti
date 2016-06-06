@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Subscriber>
+
+<User userID="U01">
+<name>Mridul</name>
+<address>
+<houseno>5656</houseno>
+<street>Eastend</street>
+<city>Delhi</city>
+<region>North</region>
+<country>INDIA</country>
+<pincode>110092</pincode>
+</address>
+<packageID>P01</packageID>
+</User>
+
+<User userID="U02">
+<name>priyanshu</name>
+<address>
+<houseno>5646</houseno>
+<street>Etend</street>
+<city>Delhi</city>
+<region>North</region>
+<country>INDIA</country>
+<pincode>110092</pincode>
+</address>
+<packageID>P02</packageID>
+</User>
+
+<User userID="U01">
+<name>nitin</name>
+<address>
+<houseno>5656</houseno>
+<street>Eastend</street>
+<city>Delhi</city>
+<region>North</region>
+<country>INDIA</country>
+<pincode>110092</pincode>
+</address>
+<packageID>P03</packageID>
+</User>
+
+</Subscriber>
