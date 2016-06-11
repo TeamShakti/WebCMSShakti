@@ -1,0 +1,45 @@
+{
+  "Subscriber": {
+    "User": [
+      {
+        "userID": "U01",
+        "name": "Mridul",
+        "address": {
+          "houseno": "5656",
+          "street": "Eastend",
+          "city": "Delhi",
+          "region": "North",
+          "country": "INDIA",
+          "pincode": "110092"
+        },
+        "packageID": "P01"
+      },
+      {
+        "userID": "U02",
+        "name": "priyanshu",
+        "address": {
+          "houseno": "5646",
+          "street": "Etend",
+          "city": "Delhi",
+          "region": "North",
+          "country": "INDIA",
+          "pincode": "110092"
+        },
+        "packageID": "P02"
+      },
+      {
+        "userID": "U01",
+        "name": "nitin",
+        "address": {
+          "houseno": "5656",
+          "street": "Eastend",
+          "city": "Delhi",
+          "region": "North",
+          "country": "INDIA",
+          "pincode": "110092"
+        },
+        "packageID": "P03"
+      }
+    ]
+  }
+}

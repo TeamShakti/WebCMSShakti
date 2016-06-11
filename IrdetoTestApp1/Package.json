@@ -1,0 +1,33 @@
+{
+  "Subscription": {
+    "Package": [
+      {
+        "packageID": "P01",
+        "title": "super gold",
+        "description": "this is super gold",
+        "country": "INDIA",
+        "region": "ALL",
+        "currency": "Rupees",
+        "price": "100"
+      },
+      {
+        "packageID": "P02",
+        "title": "premium gold",
+        "description": "this is super gold",
+        "country": "INDIA",
+        "region": "ALL",
+        "currency": "Ruppes",
+        "price": "100"
+      },
+      {
+        "packageID": "P03",
+        "title": "diamond",
+        "description": "this is super gold",
+        "country": "INDIA",
+        "region": "ALL",
+        "currency": "Ruppes",
+        "price": "100"
+      }
+    ]
+  }
+}

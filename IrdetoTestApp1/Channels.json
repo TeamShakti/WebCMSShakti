@@ -1,0 +1,15 @@
+{
+  "Live": {
+    "Channel_Json": {
+      "channelid": "C01",
+      "title": "Star plus",
+      "description": "this is start plus tv",
+      "genre": "Entertainment",
+      "country": "INDIA",
+      "region": "ALL",
+      "language": "Hindi",
+      "imageURL": "www.google.com",
+      "channelURL": "www.s3.com",
+    }
+  }
+}
