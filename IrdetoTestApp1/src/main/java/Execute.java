@@ -1,18 +1,16 @@
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
+//import org.hibernate.cfg.Configuration;
 
 public class Execute {
 
 	/**
 	 * @param args
 	 */
-	public static SessionFactory sessionFactoryObject(){
-		return new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
-	}
+
 	
 	public static void main(String[] args) {
-		
-	SessionFactory sFactory= sessionFactoryObject();
+
+	//SessionFactory sFactory= sessionobject.sessionFactoryObject();
 	WriteXMLtoDatabase wrt = new WriteXMLtoDatabase();
 	
 //		ReadXML R = new ReadXML();
@@ -22,7 +20,7 @@ public class Execute {
 		
 		ReadJSON rdj = new ReadJSON();
 		Object srb = (Object)rdj.readjson();
-		wrt.writexmltodatabase(sFactory,srb);
+		wrt.writexmltodatabase(sessionobject.sessionFactoryObject(),srb);
 		
 		
 //		

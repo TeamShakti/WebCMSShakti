@@ -1,8 +1,8 @@
 
 import java.io.Serializable;
 import java.util.ArrayList;
-
-import javax.persistence.Column;
+import java.util.Collection;
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -28,18 +28,9 @@ public class Channel implements Serializable {
 	private	String imageURL;
 	private	String channelURL;
 	@JsonProperty(value="packagelist")
-	@Column(name="packagelist")
-    private	ArrayList<String> packagelist = new ArrayList<String>();
+	@ElementCollection
+    private	Collection<String> packagelist = new ArrayList<String>();
 
-	
-//	public Channel(){
-//		
-//	}
-//	
-//	public Channel(String Channelid){
-//		this.channelid = Channelid;
-//	}
-	
 	@XmlAttribute
 	public String getChannelid() {
 		return channelid;
@@ -107,13 +98,12 @@ public class Channel implements Serializable {
 	}
 	@XmlElement(name="packageID")
 	@JsonProperty
-	public ArrayList<String> getPackage_list() {
+	public Collection<String> getPackage_list() {
 		return packagelist;
 	}
 	@JsonProperty
-	public void setPackage_list(ArrayList<String> package_list) {
+	public void setPackage_list(Collection<String> package_list) {
 		this.packagelist = package_list;
 	}
-	
-	
+		
 }

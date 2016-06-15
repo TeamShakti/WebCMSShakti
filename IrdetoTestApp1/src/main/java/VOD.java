@@ -6,7 +6,6 @@ import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -55,7 +54,6 @@ public class VOD implements Serializable {
 	private	String showtype;
 	private	String provider;
 	@JsonProperty(value="packagelist")
-	//@Column(name="packagelist")
 	@ElementCollection
     private	Collection<String> packagelist = new ArrayList<String>();
 

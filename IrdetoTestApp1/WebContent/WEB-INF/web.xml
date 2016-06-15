@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID">
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID">
 	<display-name>IrdetoTestApp1</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>GetChannelServlet</display-name>
+		<servlet-name>GetChannelServlet</servlet-name>
+		<servlet-class>GetChannelServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>GetChannel</display-name>
+		<servlet-name>GetChannel</servlet-name>
+		<servlet-class>GetChannel</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>readdatabase</display-name>
+		<servlet-name>readdatabase</servlet-name>
+		<servlet-class>readdatabase</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetChannelServlet</servlet-name>
+		<url-pattern>/GetChannelServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetChannel</servlet-name>
+		<url-pattern>/GetChannel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>readdatabase</servlet-name>
+		<url-pattern>/readdatabase</url-pattern>
+	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>

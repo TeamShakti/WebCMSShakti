@@ -36,5 +36,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_91"/>
+	<classpathentry kind="lib" path="target/IrdetoTestApp1-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-6.0.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

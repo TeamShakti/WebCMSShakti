@@ -1,9 +1,4 @@
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collection;
 import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
@@ -11,7 +6,6 @@ import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 @XmlRootElement(name="Programme")
 @JsonRootName(value="Programme")
@@ -118,9 +112,6 @@ public class Programme {
 	public void setChannelid(String channelid) {
 		this.channelid = channelid;
 	}
-	
-
-	
 	
 	
 }
