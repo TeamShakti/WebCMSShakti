@@ -14,7 +14,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 
 /**
- * Servlet implementation class readdatabase
+ * Servlet mplementation class readdatabase
  */
 @WebServlet("/readdatabse")
 public class readdatabase extends HttpServlet {
